@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:app_layout_xf" x:Class="app_layout_xf.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Aplicativo de teste de layouts do Xamarin!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Button Text="Stack Layout" Clicked="GoPaginaStack" />
+        <Button Text="Grid Layout" Clicked="GoPaginaGrid" />
+        <Button Text="Absolute Layout" Clicked="GoPaginaAbsolute" />
+        <Button Text="Relative Layout" Clicked="GoPaginaRelative" />
+        <Button Text="Scroll Layout" Clicked="GoPaginaScroll" />
+    </StackLayout>
+</ContentPage>
